@@ -1,4 +1,4 @@
-#nav {
+nav {
     left: 0px;
     height: 45px;
     background-color: #0f110f;
@@ -6,16 +6,16 @@
     display: flex;
     justify-content: center;
 }
-#nav ul {
+nav ul {
     margin: 0;
     padding: 0;
 }
-#nav ul li {
+nav ul li {
     margin: 0;
     padding: 0;
     float:left;
 }
-#nav ul li a {
+nav ul li a {
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
