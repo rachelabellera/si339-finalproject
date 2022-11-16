@@ -1,3 +1,13 @@
+.skip a{
+    position: relative;
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+
 nav {
     left: 0px;
     height: 45px;
@@ -23,6 +33,9 @@ nav ul li a {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+
+
 h1 {
 text-align: center; 
 }
@@ -44,3 +57,42 @@ border-width: 2px;
     background: #2e0783;
     color: rgb(255, 255, 255);
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+
+ 
+
+    /* column-gap: 50px;
+    padding: 50px; */
+  
+  
+
+}
+/*     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    display: table-cell; 
+ */
+
+
+
+/* 
+FORM CSS */
+
+.form-name > h3{
+    color: darkblue;
+    text-align: center;
+}
+ .about, .events > h2, .contact {
+    text-align: center;
+ }
+
+ .events > ul{
+    text-align: center;
+    /*display:*/
+ }
+

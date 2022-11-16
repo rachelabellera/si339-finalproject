@@ -7,9 +7,10 @@
     <link rel="icon" type="image/png" href="images/logo-drk.png" />
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Sample Form</title>
     <link rel="stylesheet" type="text/css" href="../css/animal.css">
-    <div class="skip"><a href="#main">Skip to Main Content</a></div> -->
-
+    
+</head>
 <style>
 
 input[type=text], select {
@@ -44,32 +45,32 @@ div {
 }
 </style>
 
-
+<div class="skip"><a href="#main">Skip to Main Content</a></div> -->
 <body>
+    
     <div>
       <nav>
-        <ul style="list-style: none;">
-            <li><a href="home.html">Home Page</a> 
-    
-            </li>
-            <li><a href="dogs.html">Adoptable Dogs</a>  
-    
-            </li>
-            <li><a  href="cats.html">Adoptable Cats</a>  
-    
-            </li>
-            <li>
-              <a  href="form.html">Adoption Form</a> </li> </ul>  
-        </ul>
-      </nav>
-    </div>
-    <div class="form-name" id="adoption-form">
-<h3> Adoption Form</h3>
-    </div>
-
-
+      <ul style="list-style: none;">
+          <li><a href="home.html">Home Page</a> 
+  
+          </li>
+          <li><a href="dogs.html">Adoptable Dogs</a>  
+  
+          </li>
+          <li><a  href="cats.html">Adoptable Cats</a>  
+  
+          </li>
+          <li>
+            <a  href="form.html">Adoption Form</a> </li> </ul>  
+      </ul>
+    </nav>
+  </div>
+  
+<main class="form" id = "main">
 <div>
-  <form action="/action_page.php">
+  <form   action="https://formspree.io/f/xjvzllvk"
+  method="POST">
+  <h1>Adoption Form</h1>
     <label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your name..">
 
@@ -80,7 +81,7 @@ div {
     <label for="adress">Home Address</label>
     <input type="text" id="adress" name="Address" placeholder="Your home address..">
 
-    <label for="Which animal are you interested in adopting?">Which animal are you interested in adopting?</label>
+    <label for="country">Which animal are you interested in adopting?</label>
     <select id="country" name="country">
       <option value="blue">Blue</option>
       <option value="butter">Butter</option>
@@ -105,8 +106,8 @@ div {
     <input type="submit" value="Submit">
   </form>
 </div>
-
-</body>
+</main>
+</body>  
 </html>
 
 
