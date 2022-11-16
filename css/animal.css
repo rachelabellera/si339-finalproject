@@ -16,9 +16,23 @@
 
     }
 
+    /* .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center
+    } */
+    
+    .gallery > img{
+        border: solid 40px #a1a7df;
+        border-radius: 25px;
+        margin: 10px;
+        width: 300px;
+        }
+
 @media screen and (min-width: 700px) {
-    .container {
-        display:grid; 
+    .container{
+        display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px ;
         padding: 0;
@@ -29,25 +43,28 @@
         }
 
 
+
 }
 
 @media screen and (min-width: 900px) {
 
-    .container {
-    display:grid; 
+    .container{
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:15px ;
     padding: 0;
     }
 
-    div.overview{
+     div.overview{
         grid-column-start: 2;
     }
+
 
      .container #cosmo{
         grid-column-start: 1;
         grid-column-end: 2;
     }
+    
     .container #henry{
         grid-column-start: 2;
         grid-column-end: 3;
