@@ -1,6 +1,7 @@
+/* nav bar*/
+
 .skip a{
     position: relative;
-    background: white;
     left: 0;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -36,6 +37,7 @@ nav ul li a {
 
 
 
+
 h1 {
 text-align: center; 
 }
@@ -46,10 +48,8 @@ margin: 0;
 background-color: rgb(163, 193, 246);
 }
 
-.overview > h1{
-border-style: dashed;
-border-width: 2px;
-}
+
+
 
 .overview > p{
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,25 +58,61 @@ border-width: 2px;
     color: rgb(255, 255, 255);
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
 
 
- 
-
-    /* column-gap: 50px;
-    padding: 50px; */
-  
-  
-
+div#sleep.sleep-image > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
-/*     display: flex;
-    flex-wrap: wrap;
+
+@media screen and (min-width:600px) {
+    div#sleep.sleep-image > img{
+        width: auto;
+    }
+}
+
+
+.about, .events, .contact{
+    margin: 10px;
+    padding: 18px 18px;
+    border: 5px solid #2e0783;
     text-align: center;
-    display: table-cell; 
- */
+    background-color: #a1a7df;
+}
+
+@media screen and (min-width: 700px) {
+    .grid-container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .grid-container3{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+/* 
+    div#sleep.sleep-image > img{
+        width: 70%;
+        height: 50%;
+    } */
+}
+
+/* 
+
+.grid-container3 > div{
+    border: 8px solid #2e0783;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+} */
+
+
+
 
 
 
