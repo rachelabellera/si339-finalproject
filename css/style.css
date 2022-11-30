@@ -35,7 +35,7 @@ div.flex-container > a{
 nav {
     left: 0px;
     height: 45px;
-    background: linear-gradient(90deg, #fdfdfd 0%, #000000 25%,#484a4b 70%, #fffdfd 100%);
+    background: black;
     border: 2px black;
     width: 100%;
 
