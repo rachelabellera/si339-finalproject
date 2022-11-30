@@ -1,25 +1,52 @@
-/* nav bar*/
+div.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
 
+div.flex-container > a{
+    margin: 20px;
+    padding: 0px;
+    border: 5px solid white;
+}
+
+/* nav bar*/
 .skip a{
     position: relative;
     left: 0;
+    background:  #a1a7df;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 1;
   }
-
+  .skip a{
+    position:absolute;
+    top: -50px;
+  
+  }
+  
+  .skip a:focus{
+    position: absolute;
+    top: 22px;
+  }
+  
 nav {
     left: 0px;
     height: 45px;
-    background-color: #0f110f;
+    background: linear-gradient(90deg, #fdfdfd 0%, #000000 25%,#484a4b 70%, #fffdfd 100%);
+    border: 2px black;
     width: 100%;
-    display: flex;
-    justify-content: center;
+
 }
+
+
 nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 nav ul li {
     margin: 0;
@@ -45,7 +72,7 @@ text-align: center;
 body{
 padding-top: 20px;
 margin: 0;
-background-color: rgb(163, 193, 246);
+background-color: rgb(211 226 255);
 }
 
 
@@ -65,12 +92,14 @@ div#sleep.sleep-image > img{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border: 5px solid #2e0783;
 }
 
 @media screen and (min-width:600px) {
     div#sleep.sleep-image > img{
         width: auto;
     }
+
 }
 
 
@@ -79,7 +108,7 @@ div#sleep.sleep-image > img{
     padding: 18px 18px;
     border: 5px solid #2e0783;
     text-align: center;
-    background-color: #a1a7df;
+    background-color: white;
 }
 
 @media screen and (min-width: 700px) {
@@ -95,11 +124,8 @@ div#sleep.sleep-image > img{
         grid-template-columns: 1fr 1fr 1fr;
 
     }
-/* 
-    div#sleep.sleep-image > img{
-        width: 70%;
-        height: 50%;
-    } */
+
+    
 }
 
 /* 

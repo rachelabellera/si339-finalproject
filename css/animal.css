@@ -16,7 +16,7 @@
 
     .cosmo-image, .henry-image, .oreo-image, .whiskers-image, .felix-image, .fluffy-image,
      .lady-image, .sweetheart-image, .orange-image, .blue-image,  .dot-image, .snickers-image, 
-     .sally-image, .sparkle-image, .butter-image, .ruffles-image, .oliver-image 
+     .sally-image, .sparkle-image, .butter-image, .ruffles-image, .oliver-image , .snowball-image
     {
         border-radius: 25px;
         background: #a1a7df;
@@ -40,7 +40,8 @@
         
         }
         .cosmo-image > p, .henry-image > p, .whiskers-image > p, .felix-image > p, 
-        .fluffy-image > p, .lady-image > p, .sweetheart-image > p, .orange-image> p, .oreo-image > p
+        .fluffy-image > p, .lady-image > p, .sweetheart-image > p, .orange-image> p, .oreo-image > p, .blue-image > p,  .dot-image > p, .snickers-image > p, 
+        .sally-image > p, .sparkle-image > p, .butter-image > p, .ruffles-image > p, .oliver-image > p, .snowball-image > p
         {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: darkblue;
