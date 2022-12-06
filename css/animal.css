@@ -4,6 +4,7 @@
     grid-gap:15px ;
     padding: 0;
     justify-items: center;
+    align-items: center;
     }
 
 
@@ -12,6 +13,9 @@
     border-width: 2px;
     }
 
+div p{
+    text-align: center;
+}
 
 
     .cosmo-image, .henry-image, .oreo-image, .whiskers-image, .felix-image, .fluffy-image,

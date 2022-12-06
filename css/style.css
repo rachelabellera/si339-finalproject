@@ -15,7 +15,7 @@ div.flex-container > a{
 .skip a{
     position: relative;
     left: 0;
-    background:  #a1a7df;
+    background:  white;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
